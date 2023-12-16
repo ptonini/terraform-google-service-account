@@ -13,6 +13,6 @@ variable "project" {
 }
 
 variable "roles" {
-  type = set(string)
+  type    = set(string)
   default = []
 }
